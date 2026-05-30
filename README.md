@@ -529,3 +529,15 @@ Sample Output
 6. Add Complaint
 7. Add Event
 8. Exit
+
+________________________________________
+Spring Boot Module
+A new Spring Boot starter app has been added under the spring-boot-app folder. It includes a Maven configuration, MySQL datasource settings, a Student entity, repository, and REST controller.
+
+Run with:
+mvn spring-boot:run
+
+Database setup:
+- Use the existing smart_campus.sql file to create the database and tables.
+- Update the datasource credentials in spring-boot-app/src/main/resources/application.properties as needed.
+
